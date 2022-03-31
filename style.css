@@ -1,0 +1,38 @@
+body
+{
+background-color:hotpink;
+}
+#score
+{
+  margin-left: 20px;
+}
+
+#time
+{
+  float: right;
+  margin-right: 20px;
+}
+#sketch_name
+{
+  color : red;
+}
+canvas
+{
+border: darkseagreen 5px;
+border-radius: 10px;
+margin-top: 150px;
+box-shadow: 5px 5px 5px plum;
+box-shadow: 1px 1px 38px powderblue;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes example
+{
+ from{
+box-shadow: 5px 5px 5px plum;
+ } 
+  to{
+    box-shadow:1px 1px 38px powderblue;
+  }
+}
